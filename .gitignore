@@ -34,7 +34,7 @@ _analyze_notebooks.py
 _nb_analysis.txt
 
 # Large files (consider using Git LFS)
-# Datasets/personality.csv
-# Datasets/simpsons_dataset.zip
-# Datasets/database.sqlite
-# Datasets/creditcard.csv
+Datasets/personality.csv
+Datasets/simpsons_dataset.zip
+Datasets/database.sqlite
+Datasets/creditcard.csv
