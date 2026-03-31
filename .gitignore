@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+.env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temp files
+_analyze_notebooks.py
+_nb_analysis.txt
+
+# Large files (consider using Git LFS)
+# Datasets/personality.csv
+# Datasets/simpsons_dataset.zip
+# Datasets/database.sqlite
+# Datasets/creditcard.csv
