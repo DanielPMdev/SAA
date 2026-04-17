@@ -4,27 +4,47 @@ __pycache__/
 *$py.class
 *.so
 *.egg-info/
-dist/
-build/
 .eggs/
+build/
+dist/
+*.manifest
+*.spec
 
 # Jupyter Notebook
 .ipynb_checkpoints/
-*/.ipynb_checkpoints/
 
-# Virtual environments
-venv/
+# Virtual Environments
+.env
+.venv/
 env/
-.env/
+venv/
+ENV/
+env.bak/
+venv.bak/
 
-# IDE
+# IDEs and Editors
 .vscode/
 .idea/
 *.swp
 *.swo
 *~
+.project
+.pydevproject
+.settings/
 
-# OS
+# OS Specific
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
 Desktop.ini
+
+# Data Science and ML Artifacts (optional, uncomment if needed)
+# *.pkl
+# *.joblib
+# *.h5
+# *.pb
+# *.onnx
